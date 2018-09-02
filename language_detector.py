@@ -4,7 +4,7 @@ try:
     from nltk import wordpunct_tokenize
     from nltk.corpus import stopwords
 except ImportError:
-    print '[!] You need to install nltk (http://nltk.org/index.html)'
+    print 'Please install nltk library'
     
 def calculate_languages_ratios(text):
     languages_ratios = {}
